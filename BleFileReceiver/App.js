@@ -19,10 +19,10 @@ import { sha256 } from 'crypto-js';
 import AES from 'react-native-aes-crypto';
 import base64 from 'react-native-base64';
 
-// Sample UUIDs for BLE service and characteristics
-const SERVICE_UUID = '12345678-1234-5678-1234-56789abcdef0';
-const HANDSHAKE_CHAR_UUID = '12345678-1234-5678-1234-56789abcdef1';
-const TRANSFER_CHAR_UUID = '12345678-1234-5678-1234-56789abcdef2';
+// THESE ARE REAL VALID UUIDS SO YOU DONT HAVE TO CHANGE FOR RECIVERS OR SENDERS FILE
+const SERVICE_UUID = '1d0ce0fb-7a32-4f91-8d8b-f7865ac948c9';
+const HANDSHAKE_CHAR_UUID = '624fd1c5-e9fd-45ad-9148-99dd35b9fd54';
+const TRANSFER_CHAR_UUID = 'a58f74e0-3e70-4935-b385-9ed0d98aa40e'
 
 const CHUNK_SIZE = 180; // bytes per BLE payload chunk
 
