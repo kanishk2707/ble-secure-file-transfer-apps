@@ -1,4 +1,4 @@
-# project
+# ble secure file transfer
 ABOUT THIS PROJECT:<br />
 This project is a secure Bluetooth Low Energy (BLE) file transfer system built with React Native for Android and iOS. It consists of a sender app and a receiver app. The sender enables you to scan for nearby BLE devices, pick any file from your device, and send it in encrypted chunks through a secure, authenticated BLE connection using ephemeral key exchange and AES-GCM encryption. The receiver reconstructs and decrypts the file securely on the other end, ensuring data protection and reliable transfer between devices without requiring internet connectivity.<br />
 <br />
